@@ -1,0 +1,40 @@
+.history {
+    font-size: 19px;
+}
+
+
+.history-tittle {
+    margin: 0 0 19px;
+    text-align: center;
+}
+
+.history-subtittle {
+    text-align: center;
+}
+
+.history-photo {
+    width: 100%;
+    max-width: 950px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.history-description {
+    text-align: justify;
+}
+
+@media (max-width: 480px) {
+
+    .history-description {
+        font-size: 14px;
+    }
+
+    .history-tittle,
+    .history-subtittle {
+        margin: 0 0 17px;
+    }
+
+    .history {
+        padding: 20px 0 20px 0;
+    }
+}

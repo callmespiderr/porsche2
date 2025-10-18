@@ -1,0 +1,63 @@
+.contacts {
+    font-size: 19px;
+    text-align: center;
+}
+
+
+.contacts-tittle {
+    margin: 0 0 20px 0;
+}
+
+.btn-cts {
+    width: 200px;
+    height: 30px;
+    background-color: transparent;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    font-family: 'Porsche';
+    position: relative;
+    margin: 0 0 19px 0;
+}
+
+.btn-cts::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    transition: width 0.1s ease;
+    z-index: -1;
+}
+
+.btn-cts:hover::after {
+    width: 100%;
+}
+
+.btn-cts:hover {
+    color: white;
+}
+
+.socials {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.icons {
+    width: 50px;
+    height: 50px;
+}
+
+.icons:hover {
+    opacity: .9;
+}
+
+.end-tittle {
+    font-size: 15px;
+    color: rgb(117, 117, 117);
+}

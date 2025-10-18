@@ -1,0 +1,35 @@
+.about {
+    padding: 40px 0 40px 0;
+    text-align: center;
+    font-size: 19px;
+}
+
+.container {}
+
+.about-tittle {
+    margin: 0 0 19px;
+}
+
+.about-subtittle {}
+
+.about-discription,
+.about-discription-ru {
+    text-align: justify;
+}
+
+@media (max-width: 480px) {
+
+    .about-discription,
+    .about-discription-ru {
+        font-size: 14px;
+    }
+
+    .about-tittle,
+    .about-subtittle {
+        margin: 0 0 17px;
+    }
+
+    .about {
+        padding: 20px 0 20px 0;
+    }
+}
